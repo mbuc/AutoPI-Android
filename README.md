@@ -51,3 +51,13 @@ You must commit and push your changes for it to be reflected on the server.
 * Hit Push
 
 Note that if you don't want to push yet, for some reason, you can commit and then push using VCS > Git > Push > Push.
+
+###Anatomy of a good git log message
+```
+A short summary of the commit on the first line (50 chars or less!!!
+
+A more detailed description of the commit. This should explain what issues the commit addressed, what feature were added, and how it was all acheived.
+
+Any imperatives related to the commit. (i.e. Fixes issue #11. Completes development of X feature)
+```
+*NOTE: The blank newlines are necessary, especially the first one after the description. Git and Github use these blank lines to decipher between the summary and the detailed description. Viewing the log of commits will show summaries with a button to view descriptions. The second blank line is more of a stlyistic thing.
