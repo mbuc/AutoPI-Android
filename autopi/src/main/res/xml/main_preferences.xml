@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:key="adjust_volume"
+        android:title="@string/adjust_volume_title"
+        android:summary="@string/adjust_volume_desc"
+        android:defaultValue="false" />
+    <CheckBoxPreference
+        android:key="media_control"
+        android:title="@string/media_control_title"
+        android:summary="@string/media_control_desc"
+        android:defaultValue="false" />
+    <CheckBoxPreference
+        android:key="warn_dtc"
+        android:title="@string/warn_dtc_title"
+        android:summary="@string/warn_dtc_desc"
+        android:defaultValue="false" />
+    <CheckBoxPreference
+        android:key="disable_touch"
+        android:title="@string/disable_touch_title"
+        android:summary="@string/disable_touch_desc"
+        android:defaultValue="false" />
+    <EditTextPreference
+        android:key="disable_speed"
+        android:title="@string/disable_speed_title"
+        android:defaultValue="55"
+        android:dependency="disable_touch"
+        android:inputType="numberDecimal"
+        android:maxLength="2" />
+</PreferenceScreen>

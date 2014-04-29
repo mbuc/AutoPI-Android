@@ -7,4 +7,15 @@
     <string name="title_section3">Section 3</string>
     <string name="action_settings">Settings</string>
 
+    <!-- Labels and descriptions for preferences -->
+    <string name="adjust_volume_title">Automatic volume</string>
+    <string name="adjust_volume_desc">Adjust volume according to current speed</string>
+    <string name="media_control_title">Automatic media control</string>
+    <string name="media_control_desc">Pause music on an incoming call</string>
+    <string name="warn_dtc_title">DTC warnings</string>
+    <string name="warn_dtc_desc">Receive notifications when new Diagnostic Trouble Codes are received</string>
+    <string name="disable_touch_title">Disable touchscreen</string>
+    <string name="disable_touch_desc">Automatically disable the screen above a given speed</string>
+    <string name="disable_speed_title">Touchscreen disable speed</string>
+
 </resources>

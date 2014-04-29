@@ -16,6 +16,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.cecs525.autopi.SettingsActivity"
+            android:parentActivityName=".Dashboard" >
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Dashboard" />
+            android:label="@string/title_activity_settings" >
+        </activity>
     </application>
 
 </manifest>
